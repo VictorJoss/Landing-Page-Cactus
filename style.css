@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Rotobo", Arial, Helvetica, sans-serif;
+}
+
+.menu-container{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+.menu{
+    width: 960px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links li, .links ul{
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.links li:hover{
+    color: #3a8847;
+    cursor: pointer;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 100px;
+}
+
+.header{
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image{
+    margin-left: 50px;
+}
+
+.main h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800px;
+}
+
+.main p{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.main button{
+    background-color: #3882f6;
+    border: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: 19px;
+    color: #F9FAF8;
+}
+
+.main button:hover{
+    background-color: #3a8847;
+    cursor: pointer;
+}
+
+.second-section-container{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+
+.second-section{
+    width: 960px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.second-section h2{
+   
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.photo-description-section{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-section-item{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section-item p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.photo-item{
+    width: 160px;
+    height: 160px;
+    border:3px solid #3882f6;
+    border-radius: 20px;
+}
+
+.first-item{
+    background-image: url('images/ramdon-1.jpg');
+    background-size: cover;
+}
+
+.second-item{
+    background-image: url('images/ramdon-2.jpg');
+}
+
+.third-item{
+    background-image: url('images/ramdon-3.jpg');
+}
+
+.fourth-item{
+    background-image: url('images/ramdon-4.jpg');
+}
+
+.third-section-container{
+    display:flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 80px;
+}
+
+.third-section{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.some-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.author{
+    text-align: right;
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fourth-section-container{
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+}
+
+.fourth-section{
+    background-color: #3882f6;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    border-radius: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.text-container{
+    color: #E5E7EB;
+}
+
+.intern-button{
+    margin-left: 200px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.intern-button:hover{
+    background-color: #E5E7EB;
+    color: black;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: #1f2937;
+    color:#E5E7EB;
+}
